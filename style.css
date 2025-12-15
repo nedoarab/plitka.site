@@ -1,0 +1,286 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+.logo-img{
+    position: absolute;
+}
+header{
+    margin: 0 auto;
+    width: 80%;
+    background-color: rgb(162, 199, 227);
+    border-radius: 20px;
+}
+.header{
+    align-items: center;
+    margin: 50px auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+}
+.header2{
+    font-size: 16px;
+    width: 70%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.xz{
+    background-color: rgba(0, 0, 0, 0.795);
+    color: white;
+    text-align: center;
+    width: 80px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.header-content{
+    margin: 0 auto;
+    width: 70%;
+}
+.header-content p{
+    font-size: 24px;
+}
+.h11{
+    color: rgb(0, 162, 255);
+}
+.content-first-block{
+    width: 70%;
+    margin: 100px auto;
+}
+.first-block{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.block-content-white{
+    width: 30%;
+    text-align: center;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    height: 250px;
+    border: 2px solid rgb(162, 199, 227);
+    border-radius: 25px;
+}
+.block-content{
+    width: 30%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    height: 250px;
+    background-color: rgb(162, 199, 227);
+    border: 2px solid black;
+    border-radius: 25px;
+}
+.block-content h3{
+    width: 100%;
+}
+.block-content-white h3{
+    width: 100%;
+}
+.background-img1{
+    background-image: url('img/content-img\(472\).png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.background-img2{
+    background-image: url('img/R.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.background-img3{
+    background-image: url('img/OIP.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.background-img4{
+    background-image: url('img/1677709184_bigfoto-name-p-ukladka-plitki-na-polu-na-kukhne-3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.background-img5{
+    background-image: url('img/1640332919_7-bigfoto-name-p-varianti-ukladki-plitki-v-vannoi-25.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.background-img6{
+    background-image: url('img/OIP\ \(2\).webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.content-help{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+}
+.help-block{
+    margin: 0 auto;
+    width: 80%;
+    height: auto;
+}
+.line{
+    margin: 50px auto;
+    width: 70%;
+    height: 5px;
+    background-color: rgb(0, 162, 255);
+}
+.help-block h1{
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.help-block li{
+    margin-top: 15px;
+    font-size: 24px;
+    display: flex;
+    margin-left: 15px;
+}
+.blue-li{
+    color: rgb(0, 162, 255);
+    margin-left: 15px;
+    text-decoration: underline;
+}
+.black-li{
+    margin-left: 15px;
+}
+.work{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+}
+.how-work{
+    margin: 0 auto;
+    width: 80%;
+    height: auto;
+}
+.how-work h1{
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.how-work li{
+    margin-top: 15px;
+    font-size: 24px;
+    display: flex;
+    margin-left: 15px;
+}
+.adventeges{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+}
+.adventeges-content{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+}
+.adventeges-content h1{
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.adventeges-content li{
+    margin-top: 15px;
+    font-size: 24px;
+    display: flex;
+    margin-left: 15px;
+}
+.create{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+}
+.create-content{
+    display: flex;
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+}
+.create h1{
+    text-align: center;
+}
+.swiper{
+    margin-top: 50px;
+    width: 70%;
+    height: 100%;
+}
+.swiper-slide{
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.swiper-slide img{
+    object-fit: cover;
+}
+.swiper-button-next, .swiper-rtl .swiper-button-prev{
+    margin-top: 50px;
+    right: 140px;
+    left: auto;
+}
+.swiper-button-prev, .swiper-rtl .swiper-button-next{
+    margin-top: 50px;
+    left: 140px;
+    right: auto;
+}
+.reting{
+    text-align: center;
+}
+@media (max-width: 1000px) {
+    .header{
+        width: 100%;
+        flex-direction: column;
+        height: auto;
+    }
+    .header p{
+        padding-top: 5px;
+    }
+    .header2{
+        flex-direction: column;
+        text-align: center;
+    }
+    .header2 a{
+        padding-top: 5px;
+    }
+    .block-content{
+        width: 45%;
+    }
+    .block-content-white{
+        width: 45%;
+    }
+    .block-content h3{
+        font-size: 1rem;
+        height: auto;
+        overflow-wrap: break-word;
+    }
+    .block-content-white h3{
+        font-size: 1rem;
+        height: auto;
+        overflow-wrap: break-word;
+    }
+    .create .create-content .first-block .block-content{
+        width: 30%;
+    }
+}   
